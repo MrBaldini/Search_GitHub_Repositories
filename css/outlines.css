@@ -1,0 +1,55 @@
+body {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+}
+
+header {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+main {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+img {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+}
+
+h1 {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+nav {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+p {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+div {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+h2 {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+}
+
+

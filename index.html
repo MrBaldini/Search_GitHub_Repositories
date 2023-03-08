@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search GitHub Repositories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  <h1 class="body__title">Search GitHub Repositories</h1>
+  <div class="body__app">
+    <div class="app__wrapper">
+      <input class="wrapper__input-search" type="search">
+      <div class="wrapper__dropdown-menu dropdown--hidden">
+        <div class="dropdown-menu__repository repository--hidden"></div>
+      </div>
+      <div class="wrapper_error"></div>
+      <div class="wrapper__repositories-list">
+        <div class="repositories-list__repository repository--hidden">
+          <div class="repository__content"></div>
+          <img class="repository__img-delete" src="icons/close.png" alt="Delete repository">
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="app"></div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

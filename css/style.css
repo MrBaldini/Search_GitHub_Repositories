@@ -1,0 +1,129 @@
+.app {
+  display: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Regular';
+  box-sizing: border-box;
+}
+
+.body__title {
+
+}
+
+.body__app {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 661px;
+  background-color: #C4C4C4;
+}
+
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 62px;
+  margin-bottom: 71px;
+}
+
+.wrapper__input-search {
+  font-size: 48px;
+  line-height: 56.25px;
+  width: 500px;
+  height: 61px;
+  margin-bottom: 265px;
+  background-color: #FFFFFF;
+  border: 0;
+  padding-left: 13px;
+}
+
+.wrapper__dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 204px; 
+  height: auto;
+  width: 500px;
+  background-color: #e3e3e3;
+}
+
+.dropdown--hidden {
+  display: none;
+}
+
+.dropdown-menu__repository {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+  line-height: 35.16px;
+  height: 44px;
+  padding-left: 13px;
+  border: 2px solid #000000;
+  border-top: 0;
+}
+
+.dropdown-menu__repository:hover {
+  cursor: pointer;
+}
+
+.wrapper__repositories-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid;
+}
+
+.repositories-list__repository {
+  display: flex;
+  justify-content: center;
+  width: 503px;
+  height: 101px;
+  background-color: #E27BEB;
+  border: 1px solid;
+  border-top: 0;
+}
+
+.repository--hidden {
+  display: none;
+}
+
+.repository__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 20px;
+  line-height: 28.13px;
+  width: 394px;
+  height: 85px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.repository__img-delete {
+  width: 49px;
+  height: 46px;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.repository__img-delete:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('fonts/Roboto-Regular.eot');
+  src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Regular.woff') format('woff'),
+  url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
